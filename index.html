@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meow~</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="javascript.js" type="text/javascript" defer></script>
+    <link rel="icon" type="imagem/png" class="imagem__sem-fundo" href="imagens/icone.png"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+    <!-- audios -->
+
+    <audio id="somBlocosGatos" src="audios/gato-miau.mp3"></audio>
+
+<!-- navbar -->
+
+<div class="topnav">
+  <a class="active" href="index.html">Home</a>
+  <a href="objetivos.html">Objetivos</a>
+  <a href="contato.html">Contato</a>
+</div>
+
+    <!-- cabeçalho -->
+
+    <center>
+        <header>
+            <h1 class="sombr-texto"><b><u><i>Raças de gato</i></u></b></h1>
+                <i><p font-size="25px">Existem milhares de raças de gatos com diferentes cores, pelagens e personalidades!</p></i>
+        </header>
+    </center>
+
+<!-- blocos com informaçoes dos gatos -->
+
+    <ul class="blocos">
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--angora"></div>
+            <div class="bloco__content">
+              <div class="bloco__title"><b>Raça Angora</b></div>
+              <p class="bloco__text">Os felinos dessa raça têm muita energia e disposição para brincar, por isso adoram crianças. Ademais, eles são extremamente adaptáveis ao ambiente em que estão inseridos.</p>
+              <a href="https://www.youtube.com/watch?v=nnY_-nCMMwU" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--laranja"></div>
+            <div class="bloco__content">
+              <div class="bloco__title"><b>Raça Maine coon laranja</b></div>
+              <p class="bloco__text">São gatos tidos como sociáveis, companheiros e gentis, que gostam de demonstrar afeto e são muito apegados aos seus humanos. Se relacionam bem com crianças, mas evitam contato com estranhos.</p>
+              <a href="https://www.youtube.com/watch?v=ujZCu2HsW2o" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--sphynx"></div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Sphynx</div>
+              <p class="bloco__text">De temperamento tranquilo, gostam de crianças e de outros animais. Se você quer um gatinho que goste de ficar no colo tanto quanto gosta de correr pela casa atrás de um brinquedo, então o Sphynx é ideal para você! Assim como a maioria dos gatos, os Sphynx são muito ativos. Gostam de brincar, pular e correr.</p>
+              <a href="https://www.youtube.com/watch?v=24nUhvmXI5o" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+
+<!-- bloco do gato da isa com um tooltip -->
+
+        <li class="bloco__item">
+          <div class="bloco-especial">
+            <div class="bloco__imagem bloco__imagem--siames">
+              
+<!-- tooltip -->
+              <div class="tooltip"><img src="imagens/blocos-gatos/gatos-isa/caixao.png" alt="" width="75" height="50">
+                <span class="tooltiptext">Minha eterna Ariel. ~Isabella</span>
+              </div>
+
+            </div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Korat</div>
+              <p class="bloco__text">São gatos que não lidam tão bem como agitação e barulho, preferindo um local mais tranquilo, e não são tão sociáveis com quem não conhecem.</p>
+              <a href="https://www.youtube.com/watch?v=A3ydn4mrUmk" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+
+
+
+
+
+
+          
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--calico">
+            <div class="tooltip"><img src="imagens/icone.png" alt="" width="75" height="50">
+              <span class="tooltiptext">ChillyKitty</span>
+            </div>
+          </div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Chita/Calico</div>
+              <p class="bloco__text">Os bichanos tricolores são considerados tímidos, curiosos e brincalhões. Esses gatinhos são ativos na maior parte do tempo, possuindo uma grande energia.</p>
+              <a href="https://www.youtube.com/watch?v=daN_5hgaP3A" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        <li class="bloco__item">
+          <div class="bloco">
+            <div class="bloco__imagem bloco__imagem--bombaim"></div>
+            <div class="bloco__content">
+              <div class="bloco__title">Raça Bombain</div>
+              <p class="bloco__text">O Bombay não é nada distante e independente, são cativantes, brincalhões, amorosos, alegres e agradáveis a qualquer pessoa da família, principalmente se alguém estimulá-los com jogos e oferecer um colo.</p>
+              <a href="https://www.youtube.com/watch?v=PyJrC71VSSs" button class="btn btn--block bloco__btn" onmouseover="playSound('somBlocosGatos')">Saiba mais sobre</a>
+            </div>
+          </div>
+        </li>
+        
+      </ul>
+      
+<!-- footer -->
+
+      <center>
+        <footer>
+          <br>
+            <h1>&#169 2024 Phellowpy CO.</h1>
+              <div class="social-footer">
+                <a href=""><h1><ion-icon name="logo-discord"></ion-icon>&nbsp;Discord&nbsp;&nbsp;&nbsp;</h1></a>
+                <a href=""><h1><ion-icon name="logo-twitter"></ion-icon>&nbsp;Twitter&nbsp;&nbsp;&nbsp;</h1></a>
+                <a href=""><h1><ion-icon name="logo-youtube"></ion-icon>&nbsp;Youtube</h1></a>
+              </div>
+          <br>
+        </footer>
+      </center>
+</body>
+</html>
